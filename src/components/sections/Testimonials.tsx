@@ -9,25 +9,25 @@ import { EyebrowBadge } from "@/components/ui/EyebrowBadge";
 
 const quotes = [
   {
-    name: "Maria R.",
-    role: "Mother of three",
-    initials: "MR",
+    name: "Renee M.",
+    role: "Lost 3.5\" first visit",
+    initials: "RM",
     color: "from-indigo-500 to-violet-500",
-    text: "I walked in skeptical. After four sessions, my migraines were gone and my eight-year-old's posture had completely transformed. This place is the real deal.",
+    text: "I was skeptical the whole drive over. Got measured, lay down, listened to a podcast, got re-measured. Three and a half inches off my waist. I made my second appointment before I left.",
   },
   {
-    name: "David K.",
-    role: "Marathon runner",
-    initials: "DK",
+    name: "Theo P.",
+    role: "Bridegroom · 6 weeks out",
+    initials: "TP",
     color: "from-zinc-700 to-zinc-950",
-    text: "Shaved 14 minutes off my marathon time after six months of regular adjustments. The recovery alone changed how I train.",
+    text: "I needed to fit into a suit I bought a size too small. Twelve sessions later the jacket buttoned without complaint. Photographer didn't have to retouch anything.",
   },
   {
-    name: "Jenna T.",
-    role: "New mom",
-    initials: "JT",
+    name: "Jade L.",
+    role: "Postpartum, 9 months",
+    initials: "JL",
     color: "from-amber-400 to-amber-600",
-    text: "Prenatal care here got me through pregnancy without back pain. Now my newborn gets adjusted too. The whole team is incredible.",
+    text: "Crunches weren't doing anything for my lower belly. This actually moved the needle. Calm, private rooms, no pressure to upsell — I'll be back.",
   },
 ];
 
@@ -36,11 +36,11 @@ export default function Testimonials() {
     <section className="px-6 py-24 md:px-8 md:py-32">
       <AnimatedSection className="mx-auto max-w-[1400px]">
         <AnimatedItem>
-          <EyebrowBadge>05 · Testimonials</EyebrowBadge>
+          <EyebrowBadge>05 · Real Clients</EyebrowBadge>
         </AnimatedItem>
         <AnimatedItem className="mt-6 mb-16">
           <h2 className="max-w-[18ch] text-3xl font-semibold leading-[1.05] tracking-tighter md:text-5xl lg:text-6xl">
-            What families say.
+            What people say after their first measure-out.
           </h2>
         </AnimatedItem>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">

@@ -11,24 +11,28 @@ import { EyebrowBadge } from "@/components/ui/EyebrowBadge";
 
 const faqs = [
   {
-    q: "Is chiropractic care safe for children?",
-    a: "Absolutely. Pediatric adjustments use a fraction of the force used for adults — about the same pressure you'd use to test a ripe tomato. We've cared for thousands of children, from newborns up.",
+    q: "Is red-light therapy safe?",
+    a: "Yes. The device is FDA-cleared for circumferential reduction. There's no UV, no heat damage, no needles, no incisions — it's a wavelength of light, not a laser cutting anything.",
   },
   {
-    q: "Do I need a referral from my doctor?",
-    a: "No referral needed. Walk in or book online — we'll handle the rest.",
+    q: "Does it hurt?",
+    a: "No. Most clients describe it as warm and relaxing. You'll lie back on a comfortable surface with the panels positioned around your target zones for the duration of the session.",
   },
   {
-    q: "How long is a typical session?",
-    a: "Your first visit runs about 60 minutes — consultation, exam, and your first adjustment. Follow-ups are 20–30 minutes.",
+    q: "How many sessions will I need?",
+    a: "Our standard program is two sessions per week. The total count depends on your starting point and goal — we'll give you a recommendation after your first measure-in.",
   },
   {
-    q: "Do you accept insurance?",
-    a: "We work with most major insurance carriers and offer affordable cash plans for the uninsured. We'll verify your benefits before your first visit.",
+    q: "How long do the results last?",
+    a: "Once the contents are released from the fat cell and cleared by the lymphatic system, they're gone. If your diet and movement stay roughly the same, the result holds. New fat can be stored if habits regress.",
   },
   {
     q: "What should I wear?",
-    a: "Anything comfortable that lets you move freely — gym wear or loose layers work best.",
+    a: "Loose, comfortable clothing you can move easily. We'll need access to the target areas, so bring a tank/shorts if we're treating the waist, hips, or thighs.",
+  },
+  {
+    q: "Can I work out the same day?",
+    a: "Yes — light cardio after a session actually helps flush the released contents. Skip an intense workout right before if you can, so we can get accurate measurements.",
   },
 ];
 
@@ -54,7 +58,7 @@ export default function FAQ() {
             <AnimatedItem key={f.q}>
               <button
                 onClick={() => setOpen(open === i ? null : i)}
-                className="card-surface w-full p-7 text-left transition-all"
+                className="card-surface w-full p-6 text-left transition-all md:p-7"
               >
                 <div className="flex items-center justify-between gap-4">
                   <h3 className="text-base font-semibold tracking-tight md:text-lg">

@@ -9,18 +9,18 @@ import { EyebrowBadge } from "@/components/ui/EyebrowBadge";
 const steps = [
   {
     n: "01",
-    title: "Consultation",
-    body: "A 30-minute deep dive into your history, lifestyle, and goals. Postural exam, spinal scan, full diagnostic.",
+    title: "Measure",
+    body: "Quick health screen, baseline measurements at every target zone, and a short conversation about what you actually want changed.",
   },
   {
     n: "02",
-    title: "Adjustment Plan",
-    body: "A personalized protocol built around your spine, your schedule, and your body's response. No two plans are the same.",
+    title: "Light",
+    body: "Twenty-five minutes under the red and near-infrared panels. We treat multiple zones in the same session — no single-zone bottleneck.",
   },
   {
     n: "03",
-    title: "Lifelong Wellness",
-    body: "Maintenance care that keeps you out of pain and in motion — for the long haul, for the whole family.",
+    title: "Activate",
+    body: "Ten minutes on the vibration plate to move the released contents into the lymphatic system. Re-measure. See what came off.",
   },
 ];
 
@@ -29,15 +29,14 @@ export default function Process() {
     <section id="process" className="px-6 py-24 md:px-8 md:py-32">
       <AnimatedSection className="mx-auto max-w-[1400px]">
         <AnimatedItem>
-          <EyebrowBadge>03 · Process</EyebrowBadge>
+          <EyebrowBadge>03 · Protocol</EyebrowBadge>
         </AnimatedItem>
         <AnimatedItem className="mt-6 mb-20">
           <h2 className="max-w-[22ch] text-3xl font-semibold leading-[1.05] tracking-tighter md:text-5xl lg:text-6xl">
-            Three steps to a body that finally{" "}
+            Three steps. Twenty-five minutes.{" "}
             <span className="bg-gradient-to-r from-indigo-500 to-violet-500 bg-clip-text text-transparent">
-              works with you
+              Measurable inches.
             </span>
-            .
           </h2>
         </AnimatedItem>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">

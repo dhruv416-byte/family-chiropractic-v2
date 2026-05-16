@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Family Chiropractic — Realign. Recover. Reclaim.",
+  title: "LUMA Studio — Red-Light Body Contouring",
   description:
-    "Care for every spine in the household — from infants to grandparents. Family Chiropractic, Denver, CO.",
+    "FDA-cleared red-light therapy. Lose inches in 25 minutes — no needles, no recovery, no fasting. Book your $69 first session in Denver, CO.",
 };
 
 export default function RootLayout({

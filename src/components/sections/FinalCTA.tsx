@@ -18,21 +18,23 @@ export default function FinalCTA() {
         <AnimatedItem>
           <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-[10px] font-medium uppercase tracking-wider text-white/80 backdrop-blur-md">
             <span className="h-1.5 w-1.5 rounded-full bg-indigo-400" />
-            07 · Next step
+            07 · First Session — $69
           </span>
         </AnimatedItem>
         <AnimatedItem className="mt-6 mb-8">
           <h2 className="max-w-[16ch] text-4xl font-semibold leading-[0.95] tracking-tighter md:text-6xl lg:text-8xl">
-            Your spine is waiting.{" "}
+            Try a session.{" "}
             <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
-              Book.
+              Measure out.
             </span>
           </h2>
         </AnimatedItem>
         <AnimatedItem className="mb-12">
           <p className="max-w-[55ch] text-base leading-relaxed text-white/70 md:text-lg">
-            First consultation is on us. No insurance pressure, no pushy plans.
-            Just an honest conversation about your body.
+            Your first visit includes baseline measurements, a full 25-minute
+            Contour Light session, ten minutes on the vibration plate, and a
+            personalized plan. No upsell pressure, no contracts — just
+            measurable proof.
           </p>
         </AnimatedItem>
 
@@ -41,7 +43,7 @@ export default function FinalCTA() {
             className="mb-16 grid max-w-[700px] gap-3 md:grid-cols-2"
             onSubmit={(e) => {
               e.preventDefault();
-              alert("Thanks! We'll reach out within 24 hours.");
+              alert("Thanks! We'll text you to confirm your slot within 24 hours.");
             }}
           >
             <input
@@ -59,7 +61,7 @@ export default function FinalCTA() {
               type="submit"
               className="rounded-2xl bg-gradient-to-r from-indigo-500 to-violet-500 px-6 py-4 text-sm font-semibold text-white shadow-xl shadow-indigo-500/30 transition-opacity hover:opacity-95 md:col-span-2"
             >
-              Book free consultation →
+              Reserve my $69 first session →
             </button>
           </form>
         </AnimatedItem>
@@ -72,7 +74,7 @@ export default function FinalCTA() {
               </div>
               <div>
                 <div className="mb-1 text-[10px] font-medium uppercase tracking-wider text-white/50">
-                  Call
+                  Call or text
                 </div>
                 <div className="text-sm">(303) 555-0142</div>
               </div>
@@ -85,7 +87,7 @@ export default function FinalCTA() {
               </div>
               <div>
                 <div className="mb-1 text-[10px] font-medium uppercase tracking-wider text-white/50">
-                  Visit
+                  Studio
                 </div>
                 <div className="text-sm">
                   1420 Wellness Blvd
@@ -105,9 +107,9 @@ export default function FinalCTA() {
                   Hours
                 </div>
                 <div className="text-sm">
-                  Mon–Fri 8a–7p
+                  Mon–Fri 9a–7p
                   <br />
-                  Sat 9a–2p
+                  Sat 10a–3p
                 </div>
               </div>
             </div>
@@ -118,11 +120,11 @@ export default function FinalCTA() {
           <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-white/40">
             <div className="flex items-center gap-2">
               <span className="grid h-6 w-6 place-items-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 text-[10px] font-bold text-white">
-                F
+                L
               </span>
-              <span>Family Chiropractic</span>
+              <span>LUMA Studio</span>
             </div>
-            <span>© 2026 · All Systems Aligned</span>
+            <span>© 2026 · Light. Inches. Confidence.</span>
           </div>
         </AnimatedItem>
       </AnimatedSection>

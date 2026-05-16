@@ -32,9 +32,9 @@ export default function Navbar() {
             className="flex items-center gap-2 font-semibold tracking-tight text-zinc-950"
           >
             <span className="grid h-7 w-7 place-items-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 text-[11px] font-bold text-white shadow-md shadow-indigo-500/30">
-              F
+              L
             </span>
-            <span className="text-sm">Family Chiro</span>
+            <span className="text-sm">LUMA Studio</span>
           </Link>
           <div className="hidden items-center gap-7 text-sm text-zinc-700 md:flex">
             <a

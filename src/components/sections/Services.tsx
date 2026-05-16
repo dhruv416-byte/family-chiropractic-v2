@@ -1,6 +1,6 @@
 "use client";
 
-import { PersonArmsSpread, Baby, Barbell, HeartStraight } from "@phosphor-icons/react";
+import { Sparkle, Lightning, Drop, HeartStraight } from "@phosphor-icons/react";
 import {
   AnimatedItem,
   AnimatedSection,
@@ -9,24 +9,24 @@ import { EyebrowBadge } from "@/components/ui/EyebrowBadge";
 
 const services = [
   {
-    icon: PersonArmsSpread,
-    title: "Spinal Adjustment",
-    body: "Precision corrections to restore mobility, reduce nerve interference, and bring the spine back into balance.",
+    icon: Sparkle,
+    title: "First Session — $69",
+    body: "Baseline measurements, a full 25-minute Contour Light session, 10 minutes on the vibration plate, and a personalized roadmap. ~75 minutes total.",
   },
   {
-    icon: Baby,
-    title: "Pediatric Care",
-    body: "Gentle, age-appropriate adjustments for infants and children — supporting healthy growth from day one.",
+    icon: Lightning,
+    title: "Contour Program",
+    body: "Twice-a-week protocol over six to eight weeks. The cadence that produces compounding inch loss for most clients.",
   },
   {
-    icon: Barbell,
-    title: "Sports Recovery",
-    body: "Performance-tier protocols for athletes — faster recovery, better range of motion, fewer injuries.",
+    icon: Drop,
+    title: "Lymph + Activate",
+    body: "Vibration plate, lymphatic drainage massage, and infrared sauna add-ons to help the body flush released contents faster.",
   },
   {
     icon: HeartStraight,
-    title: "Prenatal Care",
-    body: "Specialized adjustments for expecting mothers — relieve pressure, prepare the body, ease delivery.",
+    title: "Maintenance",
+    body: "Monthly single-session visits to preserve the result once you've hit your goal. No re-onboarding, walk in and start.",
   },
 ];
 
@@ -35,11 +35,11 @@ export default function Services() {
     <section id="services" className="bg-zinc-50/60 px-6 py-24 md:px-8 md:py-32">
       <AnimatedSection className="mx-auto max-w-[1400px]">
         <AnimatedItem>
-          <EyebrowBadge>02 · Services</EyebrowBadge>
+          <EyebrowBadge>02 · Sessions</EyebrowBadge>
         </AnimatedItem>
         <AnimatedItem className="mt-6 mb-16">
           <h2 className="max-w-[18ch] text-3xl font-semibold tracking-tighter md:text-5xl lg:text-6xl leading-[1.05]">
-            Built for the whole family.
+            Four ways to work with us.
           </h2>
         </AnimatedItem>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
